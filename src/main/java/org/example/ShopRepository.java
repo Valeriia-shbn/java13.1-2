@@ -48,7 +48,6 @@ public class ShopRepository {
     }
 
 
-    // Этот способ мы рассматривали в теории в теме про композицию
     public void remove(int id) {
         if (findById(id) == null) {
             throw new NotFoundException(
